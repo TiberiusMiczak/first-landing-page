@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+header,
+.landing-section,
+.landing-content,
+.menu{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-content,
+.menu,
+.landing-content{
+    display: flex;
+}
+
+.header-content{
+    padding: 1rem;
+}
+.header-content,
+.landing-content{
+    justify-content: space-between;
+    margin: 0 2rem;
+    max-width: 1366px;
+    flex: 1;
+}
+
+.menu{
+    gap: 1rem;
+}
+
+.landing-content{
+    height: 60dvh;
+    gap: 2rem;
+}
+
+.text-and-button{
+    width: 40dvh;
+}
+.landing-image{
+    width: 500px;
+    height: 300px;
+    background-color: antiquewhite;
+    align-self: flex-end;
+}
+
+.text-and-button h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.menu,
+.text-and-button p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.text-and-button button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    border: none;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 0 8px 10px #112331;
+}
+
+.text-and-button button:hover{
+    box-shadow: 0 16px 50px #0a2234;
+    background-color: #4489f8;
+}
+
+.text-and-button button:active{
+    box-shadow: inset 0 0 10px #112331;
+    color: #112331;
+}
